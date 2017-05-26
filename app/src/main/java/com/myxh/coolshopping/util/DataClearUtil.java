@@ -8,6 +8,7 @@ import java.math.BigDecimal;
 
 /**
  * Created by asus on 2016/9/15.
+ * 清理缓存的工具类
  */
 public class DataClearUtil {
     /**
