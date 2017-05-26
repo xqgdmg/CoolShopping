@@ -94,11 +94,6 @@ public class DataClearUtil {
      * @param cacheDir
      */
     private static void deleteFileByDirectory(File cacheDir) {
-        /*if (cacheDir != null && cacheDir.exists() && cacheDir.isDirectory()) {
-            for (File file : cacheDir.listFiles()) {
-                file.delete();
-            }
-        }*/
         if (cacheDir == null || !cacheDir.exists()) {
             return;
         }
